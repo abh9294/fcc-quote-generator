@@ -1,7 +1,7 @@
 # fcc-quote-generator
 *A simple quote generator made as fcc project requirement.*
 
-This quote generator project was made with aim to complete the project requirement of free code camp front end developer certification.
+This is an inspirational quote generator. Which generates a new quote when your click a button.
 
 # Technologies used 
 HTML 5
