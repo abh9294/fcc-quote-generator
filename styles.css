@@ -10,7 +10,7 @@ body{
 display:flex;
 justify-content: center;
 align-items: center;
-width:100%;
+width:100vw;
 height: 100vh;
 background: radial-gradient( rgba(224, 224, 79, 0.979) 0%, skyblue 80%);
 
@@ -85,7 +85,7 @@ div{
     display: flex;
     justify-content: center;
     border: none;
-    width: 90vh;
+    width: 70vw;
     max-height: 70vh;
 }
     
