@@ -1,0 +1,121 @@
+
+html{
+    display:flex;
+    justify-content:center;
+
+}
+
+
+body{
+display:flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height: 100vh;
+background: radial-gradient( rgba(224, 224, 79, 0.979) 0%, skyblue 80%);
+
+}
+
+
+#quote-box{
+    position: relative;
+    width:100%;
+    height:100%;
+    border: none;
+}
+
+#quote-wrapper {
+    width: 55vh;
+    height: 55vh;
+    position: absolute;
+    border: 0px solid rgba(39, 39, 39, 0.897);
+    box-shadow: 5px 5px 5px rgba(63, 117, 153, 0.801);
+    border-radius: 50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+
+}
+
+div{
+    border : 1px solid green;
+}
+
+#tweet-quote{
+    border: 1px solid brown;
+    position:absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%);
+}
+
+#new-quote{
+
+    position: absolute;
+    top:82%;
+    left:50%;
+    transform: translate(-50%);
+    height: 4.5vh;
+    width:14vh;
+    font-size:2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    border-radius: 2vh;
+    border-color: rgba(142, 224, 117, 0.747);
+    
+
+}
+
+#author{
+    display:inline-block;
+    position:absolute;
+    top: 85%;
+    left:50%;
+    transform: translate(-50%);
+    border: none;
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+#text {
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 90vh;
+    max-height: 70vh;
+}
+    
+
+
+#main-quote-text{
+    
+    font-size: 4vh;  
+    text-align: center;
+    border: none;
+
+}
+    
+
+.text-custom-brown {
+
+    color:brown;
+    font-family : Arial,  sans-serif;
+    font-weight: 800;
+    
+}
+
+
+
+.quote-mark {
+    font-size: 5vh;
+}
+
+
+#tweet-quote {
+    font-size: 5vh;
+    border: none;
+}
