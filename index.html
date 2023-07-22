@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="./styles.css"/> 
 </head>
-<body>
+<body id="body-background" class="light-bg-theme">
     
         <div id="quote-box">
             
             
             <div id="quote-wrapper">
                 
-                <div  class="text-custom-brown" id="text">     
+                <div  class="quote-text-light-theme" id="textbox">     
                     <span class="quote-mark" id="left-quote-mark">"</span>
                     <p id="main-quote-text"></p>
                     <span class="quote-mark" id="right-quote-mark">"</span>
                 </div>
-                <div id="author">
+                <div class="author-text-light-theme" id="author">
                     
                 </div>
     
@@ -27,11 +27,14 @@
 
            
 
-            <button  id="new-quote">new quote</button>
+            <button class="button-light-theme"  id="new-quote">new quote</button>
 
-            <a id="tweet-quote" href="#"><span class="fab fa-twitter"></span></a>
+            <a  class="tweet-light-theme" id="tweet-quote" href="#"><span class="fab fa-twitter"></span></a>
 
-        </div>  
+        </div> 
+       
+        <a title="Apply Dark mode." class="switch-light-theme" id="theme-switch" href="#"> <span class="fa fa-moon"></span> </a>
+        
         <script type="module" src="app.js"></script>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
